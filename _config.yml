@@ -24,8 +24,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Course website for Agentic Large Language Models (LLMs), taught at LIACS, 
   Leiden University. Learn about autonomous AI agents, LLM architectures, 
   prompt engineering, and building intelligent systems.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/agenticllms" # the subpath of your site, e.g. /blog
+url: "https://nikivanstein.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  nikivanstein
 
