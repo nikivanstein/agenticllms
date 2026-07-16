@@ -8,13 +8,9 @@ permalink: /syllabus/
 
 ### Agentic Large Language Models
 
-**Course Code**: TBD
-**Credits**: 6 EC (168 hours of study)
-**Institution**: LIACS, Leiden University — Master's programs Computer Science (AI track) and Creative Intelligence & Technology
+**Course Code**: TBD &middot; **Credits**: 6 EC (168 hours of study) &middot; **Institution**: [LIACS, Leiden University](/about/)
 
-### Course Description
-
-This course provides a comprehensive introduction to building autonomous agents powered by Large Language Models (LLMs). Agentic LLMs are LLMs that (1) reason, (2) act, and (3) interact, and the course is structured around these three categories, following the course textbook *Agentic Large Language Models*, written by the teaching team.
+For the full course description and teaching team, see [About](/about/). This page covers prerequisites, learning outcomes, course structure, and assessment.
 
 ### Prerequisites
 
@@ -52,17 +48,13 @@ The final course grade is the average of the grades for the four case-study assi
 - **Assignment 3** (Part IV) — Multi-Agent Diagnosis Framework
 - **Assignment 4** (Part V) — Simulating Societies with LLM Agents
 
-Each assignment has a deadline and a retake opportunity — see the [Schedule](/schedule/) for exact dates.
+Each assignment has a deadline and a retake opportunity — see the [Schedule](/schedule/) for the week-by-week timeline and exact dates.
 
 ### Required Materials
 
 - Course textbook: *Agentic Large Language Models* (Van Duijn, Van der Meer, Plaat & Van Stein)
 - Lecture slides (provided online)
 - Access to LLM APIs and a Python programming environment
-
-### Schedule
-
-See the [Schedule](/schedule/) page for the week-by-week topics and assignment deadlines.
 
 ### Academic Integrity
 

@@ -22,9 +22,7 @@ title: Home
   </div>
 </div>
 
-We define agentic LLMs as agents that integrate the power of LLMs — to communicate using natural language, write code, or process information — with the classic agent loop: they perform actions, observe the effect of these actions, and use the feedback they receive from the world to adapt their behavior. <strong>Agentic LLM = LLM + Harness.</strong>
-
-The course, and its textbook *Agentic Large Language Models*, is organized around three pillars:
+<strong>Agentic LLM = LLM + Harness.</strong> The harness is the code wrapped around a model: it manages memory and state, calls tools on the model's behalf, and lets it observe the effects of its own actions. The course, and its textbook *Agentic Large Language Models*, is organized around three pillars:
 
 <div class="pillars">
   <div class="pillar"><span class="tag">01 &middot; reason</span><h3>Reasoning</h3><p>Chain-of-thought prompting, self-reflection, world models, and metalearning that let LLMs think through complex problems.</p></div>
@@ -37,7 +35,6 @@ The course, and its textbook *Agentic Large Language Models*, is organized aroun
 - **Institution**: LIACS, Leiden University
 - **Credits**: 6 EC
 - **Format**: Weekly lectures plus four hands-on programming case studies (in Python)
-- **Prerequisites**: Programming (Python), machine learning fundamentals, and basic familiarity with neural networks and NLP (see the [Syllabus](/syllabus/) for details)
-- **Teaching team**: Max van Duijn, Michiel van der Meer, Aske Plaat, Niki van Stein
+- **Teaching team**: Max van Duijn, Michiel van der Meer, Aske Plaat, Niki van Stein — see [About](/about/) for bios
 
-Check the [Syllabus](/syllabus/) for the full course structure — including an interactive breakdown of every part and chapter — and the [Schedule](/schedule/) for the week-by-week timeline.
+Check the [Syllabus](/syllabus/) for prerequisites and an interactive breakdown of every part and chapter, and the [Schedule](/schedule/) for the week-by-week timeline.

@@ -18,24 +18,12 @@ Agentic LLMs are LLMs that (1) reason, (2) act, and (3) interact. After an intro
 
 Throughout the course we discuss applications of agentic LLMs in domains such as medical diagnosis, logistics, and financial market analysis. We also look at how self-reflective agents that play roles and interact with one another can augment scientific research itself, and how agentic LLMs offer a way around LLMs running out of fresh training data: inference-time interaction can generate new training signal, so that models can keep learning without ever-larger datasets. Agentic LLM assistants that act in the real world also carry real risk, and we discuss both the risks and the societal benefits throughout the course.
 
-### Learning Objectives
-
-By the end of this course, students will be able to:
-
-1. Explain the architecture, training pipeline, and scaling behavior of modern Large Language Models.
-2. Describe advanced reasoning techniques (chain-of-thought, self-reflection, test-time compute) and world/action models beyond pure language.
-3. Design and implement autonomous agentic LLM systems, including tool use, retrieval augmentation, and memory architectures.
-4. Build and evaluate real-world assistants in high-stakes domains such as medicine and finance.
-5. Analyze the behavior of single and multi-agent LLM systems through a behavioral and cognitive lens, including role-based and emergent social behavior.
-6. Critically assess the limitations, safety, and ethical considerations of agentic AI systems.
-
 ### Course Structure
 
 - **Lectures**: Weekly sessions covering the theory and case studies from the course textbook, *Agentic Large Language Models* (Van Duijn, Van der Meer, Plaat & Van Stein).
-- **Case studies / assignments**: Four hands-on programming case studies, each spanning about three weeks — see the [Schedule](/schedule/) for details.
-- **Grading**: The final course grade is the average of the grades for the four case studies. There is a retake opportunity for each.
+- **Case studies / assignments**: Four hands-on programming case studies, each spanning about three weeks — see the [Schedule](/schedule/) for exact dates.
 
-See the [Syllabus](/syllabus/) for the full breakdown of parts, chapters, and assignments.
+See the [Syllabus](/syllabus/) for prerequisites, learning outcomes, grading, and the full breakdown of parts, chapters, and assignments.
 
 ### Teaching Team
 
