@@ -127,10 +127,10 @@ Assignment 4 retake. No new lecture; winter break follows.
 
 | Assignment | Case Study | Book Chapter | Starts | Due | Retake |
 |---|---|---|---|---|---|
-| 1 | Building LLMs from Scratch | Ch. 5 | Sep 8 | Sep 29 | Oct 6 |
-| 2 | BALROG: Reasoning & Reflection | Ch. 10 | Sep 29 | Oct 20 | Oct 27 |
-| 3 | Multi-Agent Diagnosis Framework | Ch. 14 | Oct 20 | Nov 10 | Nov 17 |
-| 4 | Simulating Societies with LLM Agents | Ch. 18 | Nov 10 | Dec 1 | Dec 8 |
+| 1 | Building LLMs from Scratch | [Ch. 5](/syllabus/#part-1) | Sep 8 | Sep 29 | Oct 6 |
+| 2 | BALROG: Reasoning & Reflection | [Ch. 10](/syllabus/#part-3) | Sep 29 | Oct 20 | Oct 27 |
+| 3 | Multi-Agent Diagnosis Framework | [Ch. 14](/syllabus/#part-4) | Oct 20 | Nov 10 | Nov 17 |
+| 4 | Simulating Societies with LLM Agents | [Ch. 18](/syllabus/#part-5) | Nov 10 | Dec 1 | Dec 8 |
 
 *Note: This schedule may be adjusted based on class progress and guest-speaker availability. Any changes will be announced in advance.*
 
