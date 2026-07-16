@@ -92,35 +92,3 @@
   </div>
 
 </div>
-
-<script>
-(function () {
-  var parts = document.querySelectorAll('#parts .part');
-  parts.forEach(function (part) {
-    var btn = part.querySelector('.part-toggle');
-    var panel = part.querySelector('.chapters');
-    btn.addEventListener('click', function () {
-      var isOpen = part.classList.contains('open');
-      if (isOpen) {
-        panel.style.maxHeight = '0px';
-        part.classList.remove('open');
-        btn.setAttribute('aria-expanded', 'false');
-      } else {
-        part.classList.add('open');
-        btn.setAttribute('aria-expanded', 'true');
-        panel.style.maxHeight = panel.scrollHeight + 'px';
-      }
-    });
-  });
-
-  // Deep-link support: /syllabus/#part-3 opens and scrolls to Part III
-  var hash = window.location.hash.match(/^#part-(\d)$/);
-  if (hash) {
-    var target = document.querySelector('#parts .part[data-part="' + hash[1] + '"]');
-    if (target) {
-      target.querySelector('.part-toggle').click();
-      target.scrollIntoView({ block: 'start' });
-    }
-  }
-})();
-</script>

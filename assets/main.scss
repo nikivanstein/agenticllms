@@ -58,8 +58,11 @@ $content-width:    840px !default;
 
   .site-header { background-color: var(--paper); border-bottom-color: var(--line); }
   .site-title, .site-title:visited { color: var(--ink); }
+  .site-nav, .site-nav .trigger {
+    background-color: var(--paper);
+    border-color: var(--line);
+  }
   .site-nav .page-link { color: var(--ink); }
-  .site-nav .trigger { background-color: var(--paper); }
   .site-nav .menu-icon > svg { fill: var(--ink); }
 
   .site-footer { border-top-color: var(--line); color: var(--ink-soft); }
@@ -67,7 +70,13 @@ $content-width:    840px !default;
 
   hr, .post-content h2 { border-color: var(--line); }
   code, pre { background-color: var(--panel); color: var(--ink); }
-  table th, table td { border-color: var(--line); color: var(--ink); }
+  table { color: var(--ink); border-color: var(--line); }
+  table th {
+    background-color: var(--panel);
+    border-color: var(--line);
+    color: var(--ink);
+  }
+  table td { border-color: var(--line); color: var(--ink); }
   table tr:nth-child(even) { background-color: var(--panel); }
   blockquote { color: var(--ink-soft); border-left-color: var(--line); }
 }
