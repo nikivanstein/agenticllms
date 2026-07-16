@@ -39,42 +39,9 @@ Upon successful completion of this course, students will be able to:
 
 ### Course Topics
 
-The book — and the course — are organized into seven parts:
+The book — and the course — are organized into seven parts. Click a part below to see its chapters.
 
-#### Part I: Language Modeling
-- Foundations of Language Modeling with LLMs: tokenization, embeddings, attention, the transformer architecture
-- The Large Language Model Training Pipeline: data, pretraining, finetuning, preference tuning, inference, benchmarks
-- Scaling Laws and Efficient Large Language Models: scaling laws, small/distilled models, energy consumption
-- Case Study 1: Building LLMs from Scratch
-
-#### Part II: Reasoning
-- Reasoning Models: chain-of-thought, self-reflection, reinforcement learning with verifiable rewards
-- Vision, Action and World Models: vision-language(-action) models, world models
-- Metalearning: in-context learning, few-shot learning, inner/outer learning loops
-
-#### Part III: Agents
-- Interaction Styles for Agentic LLMs: historic agent types, the five agentic interaction styles, agentic memory
-- Case Study 2: BALROG for LLM Reasoning and Reflection
-
-#### Part IV: Tools for Agentic Systems and their Applications
-- How Agents Use Tools to Act in the World: toolchains, the ReAct loop, the Model Context Protocol (MCP)
-- Search and Retrieval in Agentic LLMs: retrieval-augmented generation (RAG), Self-RAG, agentic and multimodal retrieval
-- From Tools to Assistants: Real-World Applications: shopping, medical, financial, scientific, and coding assistants
-- Case Study 3: Building a Multi-Agent Diagnosis Framework
-
-#### Part V: Behavioral and Cognitive Perspectives on Agentic LLMs
-- Studying Behavior of Agentic LLMs: machine behavior, social and interactive competencies, Theory of Mind
-- Role-Based Interaction in Multi-LLM Systems: role-based collaboration, orchestration topologies and protocols
-- Emergent Behavior in Multi Agent LLM Environments: cooperation, norms, collective intelligence
-- Case Study 4: Simulating Societies with LLM Agents
-
-#### Part VI: Advanced Topics *(optional, in-depth material)*
-- Synthetic Data Generation for Training Agentic LLMs
-- Mechanistic Interpretability for LLM Agents
-- Cognitive Perspectives on Agentic LLMs
-
-#### Part VII: Conclusion
-- Future Directions for Agentic LLMs
+{% include parts-accordion.html %}
 
 ### Assessment
 
