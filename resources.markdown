@@ -65,7 +65,7 @@ This page collects the tools, frameworks, benchmarks, and foundational papers re
 ### Getting Help
 
 - **Office Hours**: Check the [Schedule](/schedule/) for lecture times; office hours are announced in class
-- **Email**: [m.t.van.der.meer@liacs.leidenuniv.nl](mailto:m.t.van.der.meer@liacs.leidenuniv.nl) for course-related questions
+- **Email**: [a.plaat@liacs.leidenuniv.nl](mailto:a.plaat@liacs.leidenuniv.nl) for course-related questions
 - **LIACS**: Visit the [LIACS website](https://www.universiteitleiden.nl/en/science/computer-science) for general support
 
 ---

@@ -47,8 +47,8 @@ The course is taught by its four textbook authors, all researchers at LIACS, Lei
 
 **[Aske Plaat](https://www.universiteitleiden.nl/en/staffmembers/aske-plaat)** — Professor of Artificial Intelligence at Leiden University and Scientific Director of LIACS. He heads the Reinforcement Learning Group and the Sustainable Energy Learning Lab, and is the author of two textbooks on Deep Reinforcement Learning.
 
-**[Niki van Stein](https://www.universiteitleiden.nl/en/staffmembers/niki-van-stein)** — Assistant professor at LIACS, leading the Explainable AI (XAI) group within the Natural Computing cluster. Her research focuses on integrating explainability into AI models for predictive maintenance, engineering design, and automated algorithm design.
+**[Niki van Stein](https://www.universiteitleiden.nl/en/staffmembers/niki-van-stein)** — Associate professor at LIACS, leading the Explainable AI (XAI) group within the Natural Computing cluster. Her research focuses on integrating explainability into AI models for predictive maintenance, engineering design, and automated algorithm design.
 
 ### Contact
 
-For questions about the course, contact the lecturers at [m.t.van.der.meer@liacs.leidenuniv.nl](mailto:m.t.van.der.meer@liacs.leidenuniv.nl), or visit the [LIACS website](https://www.universiteitleiden.nl/en/science/computer-science).
+For questions about the course, contact the lecturers at [a.plaat@liacs.leidenuniv.nl](mailto:a.plaat@liacs.leidenuniv.nl), or visit the [LIACS website](https://www.universiteitleiden.nl/en/science/computer-science).
