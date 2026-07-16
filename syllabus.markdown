@@ -8,106 +8,103 @@ permalink: /syllabus/
 
 ### Agentic Large Language Models
 
-**Course Code**: TBD  
-**Credits**: TBD  
-**Institution**: LIACS, Leiden University
+**Course Code**: TBD
+**Credits**: 6 EC (168 hours of study)
+**Institution**: LIACS, Leiden University — Master's programs Computer Science (AI track) and Creative Intelligence & Technology
 
 ### Course Description
 
-This course provides a comprehensive introduction to building autonomous agents powered by Large Language Models (LLMs). Students will learn the theoretical foundations, practical techniques, and ethical considerations for developing intelligent systems that can reason, plan, and act independently.
+This course provides a comprehensive introduction to building autonomous agents powered by Large Language Models (LLMs). Agentic LLMs are LLMs that (1) reason, (2) act, and (3) interact, and the course is structured around these three categories, following the course textbook *Agentic Large Language Models*, written by the teaching team.
 
 ### Prerequisites
 
-- Basic programming skills (Python recommended)
-- Fundamental understanding of machine learning concepts
-- Familiarity with neural networks (helpful but not required)
+- Programming skills in Python and PyTorch
+- Understanding of classical machine learning (classification vs. regression, training/test sets, overfitting, decision trees/ensembles)
+- Familiarity with deep learning basics (MLPs, CNNs, RNNs, backpropagation, loss and activation functions)
+- Familiarity with reinforcement learning (sequential decision problems, agent/environment, Q-learning, DQN, PPO, SAC)
+- Familiarity with NLP basics (tokenization, word embeddings, attention, the Hugging Face ecosystem)
+
+If you are missing some of this background, the first part of the course reviews the fundamentals, but a supplementary textbook in the relevant area is recommended.
 
 ### Learning Outcomes
 
 Upon successful completion of this course, students will be able to:
 
-1. Explain the architecture and capabilities of state-of-the-art Large Language Models
-2. Design and implement autonomous AI agents using LLM frameworks
-3. Apply advanced prompt engineering techniques for complex reasoning tasks
-4. Integrate LLMs with external tools, APIs, and knowledge bases
-5. Build and coordinate multi-agent systems for collaborative problem-solving
-6. Evaluate agent performance and ensure responsible AI deployment
-7. Critically assess the limitations and risks of agentic AI systems
+1. Explain the architecture, training pipeline, and scaling behavior of state-of-the-art Large Language Models.
+2. Apply advanced reasoning techniques (chain-of-thought, self-reflection, test-time compute) for complex problem solving.
+3. Design and implement autonomous AI agents, including tool use, retrieval augmentation, and agentic memory architectures.
+4. Build and evaluate real-world assistants in domains such as medicine, finance, and scientific research.
+5. Analyze and construct multi-agent systems for collaborative task solving and social simulation.
+6. Critically assess the behavioral, cognitive, safety, and ethical dimensions of agentic AI systems.
 
 ### Course Topics
 
-#### Module 1: Foundations of Large Language Models
-- Transformer architecture and attention mechanisms
-- Pre-training and fine-tuning strategies
-- Capabilities and limitations of current LLMs
-- In-context learning and few-shot prompting
+The book — and the course — are organized into seven parts:
 
-#### Module 2: Prompt Engineering
-- Prompt design principles and best practices
-- Chain-of-thought reasoning
-- Self-consistency and voting mechanisms
-- Prompt optimization techniques
+#### Part I: Language Modeling
+- Foundations of Language Modeling with LLMs: tokenization, embeddings, attention, the transformer architecture
+- The Large Language Model Training Pipeline: data, pretraining, finetuning, preference tuning, inference, benchmarks
+- Scaling Laws and Efficient Large Language Models: scaling laws, small/distilled models, energy consumption
+- Case Study 1: Building LLMs from Scratch
 
-#### Module 3: Building AI Agents
-- Agent architectures (ReAct, Plan-and-Execute, Reflexion)
-- Memory systems and context management
-- Tool use and function calling
-- Action planning and execution
+#### Part II: Reasoning
+- Reasoning Models: chain-of-thought, self-reflection, reinforcement learning with verifiable rewards
+- Vision, Action and World Models: vision-language(-action) models, world models
+- Metalearning: in-context learning, few-shot learning, inner/outer learning loops
 
-#### Module 4: Advanced Agent Capabilities
-- Multi-agent systems and collaboration
-- Self-reflection and iterative improvement
-- Long-term planning and goal decomposition
-- Handling uncertainty and errors
+#### Part III: Agents
+- Interaction Styles for Agentic LLMs: historic agent types, the five agentic interaction styles, agentic memory
+- Case Study 2: BALROG for LLM Reasoning and Reflection
 
-#### Module 5: Integration and Deployment
-- Connecting to external APIs and databases
-- RAG (Retrieval-Augmented Generation) systems
-- Agent orchestration frameworks
-- Production deployment considerations
+#### Part IV: Tools for Agentic Systems and their Applications
+- How Agents Use Tools to Act in the World: toolchains, the ReAct loop, the Model Context Protocol (MCP)
+- Search and Retrieval in Agentic LLMs: retrieval-augmented generation (RAG), Self-RAG, agentic and multimodal retrieval
+- From Tools to Assistants: Real-World Applications: shopping, medical, financial, scientific, and coding assistants
+- Case Study 3: Building a Multi-Agent Diagnosis Framework
 
-#### Module 6: Ethics, Safety, and Evaluation
-- Responsible AI principles
-- Bias detection and mitigation
-- Safety constraints and guardrails
-- Evaluation metrics for agent systems
+#### Part V: Behavioral and Cognitive Perspectives on Agentic LLMs
+- Studying Behavior of Agentic LLMs: machine behavior, social and interactive competencies, Theory of Mind
+- Role-Based Interaction in Multi-LLM Systems: role-based collaboration, orchestration topologies and protocols
+- Emergent Behavior in Multi Agent LLM Environments: cooperation, norms, collective intelligence
+- Case Study 4: Simulating Societies with LLM Agents
+
+#### Part VI: Advanced Topics *(optional, in-depth material)*
+- Synthetic Data Generation for Training Agentic LLMs
+- Mechanistic Interpretability for LLM Agents
+- Cognitive Perspectives on Agentic LLMs
+
+#### Part VII: Conclusion
+- Future Directions for Agentic LLMs
 
 ### Assessment
 
-- **Assignments**: 40% - Weekly programming exercises and problem sets
-- **Midterm Project**: 20% - Design and implement a simple agent system
-- **Final Project**: 30% - Build a comprehensive agentic application
-- **Participation**: 10% - Active engagement in discussions and labs
+The final course grade is the average of the grades for the four case-study assignments — there is no separate written exam:
+
+- **Assignment 1** (Part I) — Building LLMs from Scratch
+- **Assignment 2** (Parts II/III) — Reasoning and self-reflection (BALROG)
+- **Assignment 3** (Part IV) — Multi-Agent Diagnosis Framework
+- **Assignment 4** (Part V) — Simulating Societies with LLM Agents
+
+Each assignment has a deadline and a retake opportunity — see the [Schedule](/schedule/) for exact dates.
 
 ### Required Materials
 
-- Lecture slides and notes (provided online)
-- Selected research papers and articles
-- Access to LLM APIs (OpenAI, Anthropic, or open-source alternatives)
-- Python programming environment with relevant libraries
-
-### Recommended Reading
-
-- Research papers on LLMs and agent systems (provided throughout the course)
-- "Prompt Engineering Guide" (online resource)
-- Documentation for popular LLM frameworks (LangChain, AutoGen, etc.)
+- Course textbook: *Agentic Large Language Models* (Van Duijn, Van der Meer, Plaat & Van Stein)
+- Lecture slides (provided online)
+- Access to LLM APIs and a Python programming environment
 
 ### Schedule
 
-See the [Schedule](/schedule/) page for detailed week-by-week topics and assignment deadlines.
+See the [Schedule](/schedule/) page for the week-by-week topics and assignment deadlines.
 
 ### Academic Integrity
 
-Students are expected to follow Leiden University's academic integrity policies. While collaboration on concepts is encouraged, all submitted work must be original. Proper attribution is required for any external resources used.
+Students are expected to follow Leiden University's academic integrity policies. While collaboration on concepts is encouraged, all submitted work must be original, with proper attribution for any external resources used.
 
 ### Accessibility
 
-If you require any accommodations to participate fully in this course, please contact the instructor or university disability services as soon as possible.
-
-### Course Updates
-
-This syllabus may be updated during the course. Students will be notified of any significant changes.
+If you require any accommodations to participate fully in this course, please contact the instructors or Leiden University's disability services as soon as possible.
 
 ---
 
-*Last updated: February 2026*
+*Last updated: July 2026*

@@ -3,27 +3,30 @@ layout: home
 title: Home
 ---
 
-# Welcome to Agentic Large Language Models
+# Agentic Large Language Models
 
-This is the course website for **Agentic LLM** at LIACS, Leiden University.
+Course website for **Agentic LLM**, taught at [LIACS](https://www.universiteitleiden.nl/en/science/computer-science), Leiden University, as part of the Master's programs Computer Science (AI track) and Creative Intelligence & Technology.
 
-## Course Overview
+## What are Agentic LLMs?
 
-This course explores the cutting-edge field of agentic artificial intelligence powered by Large Language Models (LLMs). Students will learn how to build, deploy, and evaluate autonomous AI agents that can reason, plan, and act in complex environments.
+Large language models (LLMs) have taken the world by storm, thanks to their ability to communicate in natural language and reason about the world. But what happens when LLMs can also *act* in the world, and *interact* with each other?
 
-## Key Topics
+We define agentic LLMs as agents that integrate the power of LLMs — to communicate using natural language, write code, or process information — with the classic agent loop: they **perform actions**, **observe the effect of these actions**, and **use the feedback they receive from the world** to **adapt their behavior**.
 
-- **LLM Fundamentals**: Architecture, training, and capabilities of large language models
-- **Agent Design**: Building autonomous agents that can reason and take actions
-- **Prompt Engineering**: Advanced techniques for effective LLM interaction
-- **Tool Use & Integration**: Connecting LLMs with external tools and APIs
-- **Multi-Agent Systems**: Coordination and collaboration between multiple AI agents
-- **Safety & Ethics**: Responsible AI development and deployment considerations
+<div style="text-align:center; margin: 1em 0;"><strong>Agentic LLM = LLM + Harness</strong></div>
+
+The course, and the accompanying textbook *Agentic Large Language Models* written by the teaching team, is organized around three pillars:
+
+- **Reasoning** — chain-of-thought prompting, self-reflection, world models, and metalearning that let LLMs think through complex problems.
+- **Acting** — tool use, retrieval augmentation, and real-world assistants in domains such as medicine, finance, and scientific research.
+- **Interacting** — multi-agent systems, role-based collaboration, and emergent social behavior in simulated societies of LLM agents.
 
 ## Course Information
 
 - **Institution**: LIACS, Leiden University
-- **Format**: Lectures, hands-on labs, and project work
-- **Prerequisites**: Basic programming knowledge and familiarity with machine learning concepts
+- **Credits**: 6 EC
+- **Format**: Weekly lectures plus four hands-on programming case studies (in Python)
+- **Prerequisites**: Programming (Python), machine learning fundamentals, and basic familiarity with neural networks and NLP (see the [Syllabus](/syllabus/) for details)
+- **Teaching team**: Max van Duijn, Michiel van der Meer, Aske Plaat, Niki van Stein
 
-Check the [About](/about/) page for more details about the course structure and schedule.
+Check the [Syllabus](/syllabus/) for the full course structure and the [Schedule](/schedule/) for the week-by-week breakdown.

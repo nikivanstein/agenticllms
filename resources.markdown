@@ -6,145 +6,68 @@ permalink: /resources/
 
 ## Course Resources
 
-This page provides links to useful resources, tools, and references for the Agentic LLM course.
+This page collects the tools, frameworks, benchmarks, and foundational papers referenced throughout the course textbook, *Agentic Large Language Models*, organized by course part.
 
 ---
 
-### Development Tools and Frameworks
+### The Textbook
 
-#### LLM APIs and Platforms
-- [OpenAI API](https://platform.openai.com/) - GPT-4 and other models
-- [Anthropic Claude](https://www.anthropic.com/) - Claude 3 models
-- [Google AI Studio](https://ai.google.dev/) - Gemini models
-- [Hugging Face](https://huggingface.co/) - Open-source models and tools
-
-#### Agent Frameworks
-- [LangChain](https://python.langchain.com/) - Framework for LLM applications
-- [AutoGen](https://microsoft.github.io/autogen/) - Multi-agent conversation framework
-- [CrewAI](https://www.crewai.com/) - Platform for orchestrating role-playing AI agents
-- [Semantic Kernel](https://learn.microsoft.com/en-us/semantic-kernel/) - Microsoft's SDK for LLM integration
-
-#### Vector Databases
-- [Pinecone](https://www.pinecone.io/) - Managed vector database
-- [Weaviate](https://weaviate.io/) - Open-source vector search engine
-- [Chroma](https://www.trychroma.com/) - AI-native embedding database
-- [FAISS](https://faiss.ai/) - Facebook AI Similarity Search
-
-#### Development Environments
-- [Python](https://www.python.org/) - Primary programming language for the course
-- [Jupyter Notebooks](https://jupyter.org/) - Interactive development environment
-- [Google Colab](https://colab.research.google.com/) - Free cloud-based notebooks
-- [Visual Studio Code](https://code.visualstudio.com/) - Recommended code editor
+- **Agentic Large Language Models** — Max van Duijn, Michiel van der Meer, Aske Plaat, Niki van Stein. The primary reading material for this course; see the [Syllabus](/syllabus/) for the chapter-by-chapter breakdown.
 
 ---
 
-### Learning Materials
+### Development Environment
 
-#### Foundational Papers
-
-**Transformers and LLMs:**
-- Vaswani et al. (2017) - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
-- Brown et al. (2020) - [Language Models are Few-Shot Learners (GPT-3)](https://arxiv.org/abs/2005.14165)
-- OpenAI (2023) - [GPT-4 Technical Report](https://arxiv.org/abs/2303.08774)
-
-**Prompt Engineering:**
-- Wei et al. (2022) - [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903)
-- Kojima et al. (2022) - [Zero-shot CoT](https://arxiv.org/abs/2205.11916)
-- Yao et al. (2023) - [Tree of Thoughts](https://arxiv.org/abs/2305.10601)
-
-**AI Agents:**
-- Yao et al. (2023) - [ReAct: Reasoning and Acting](https://arxiv.org/abs/2210.03629)
-- Shinn et al. (2023) - [Reflexion](https://arxiv.org/abs/2303.11366)
-- Park et al. (2023) - [Generative Agents](https://arxiv.org/abs/2304.03442)
-
-**Retrieval-Augmented Generation:**
-- Lewis et al. (2020) - [RAG: Retrieval-Augmented Generation](https://arxiv.org/abs/2005.11401)
-
-#### Online Courses and Tutorials
-- [DeepLearning.AI - ChatGPT Prompt Engineering](https://www.deeplearning.ai/short-courses/)
-- [Prompt Engineering Guide](https://www.promptingguide.ai/)
-- [LangChain Documentation](https://python.langchain.com/docs/get_started/introduction)
-- [Hugging Face NLP Course](https://huggingface.co/learn/nlp-course/)
-
-#### Books and Documentation
-- OpenAI Cookbook - [Best practices for GPT](https://cookbook.openai.com/)
-- Anthropic's Guide to [Prompt Engineering](https://docs.anthropic.com/claude/docs/prompt-engineering)
-- [Python Documentation](https://docs.python.org/)
+- [Python](https://www.python.org/) — primary programming language for all assignments
+- [PyTorch](https://pytorch.org/) — deep learning framework used throughout the case studies
+- [Hugging Face](https://huggingface.co/) — models, datasets, and libraries (`transformers`, model cards, hub) used in Case Study 1 and beyond
+- [Jupyter Notebooks](https://jupyter.org/) / [Google Colab](https://colab.research.google.com/) — interactive development
 
 ---
 
-### Datasets and Benchmarks
+### Part I — Language Modeling
 
-#### Agent Evaluation Benchmarks
-- [AgentBench](https://github.com/THUDM/AgentBench) - Benchmark for LLM-as-Agent
-- [ToolBench](https://github.com/OpenBMB/ToolBench) - Tool-learning benchmark
-- [WebArena](https://github.com/web-arena-x/webarena) - Web agent benchmark
+- Vaswani et al. (2017) — [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
+- [nanochat](https://github.com/karpathy/nanochat) — the from-scratch ChatGPT-style training pipeline used in Case Study 1
 
-#### General LLM Datasets
-- [MMLU](https://github.com/hendrycks/test) - Massive Multitask Language Understanding
-- [HumanEval](https://github.com/openai/human-eval) - Code generation benchmark
-- [GSM8K](https://github.com/openai/grade-school-math) - Math word problems
+### Part II — Reasoning
 
----
+- Wei et al. (2022) — [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+- Yao et al. (2022) — [ReAct: Synergizing Reasoning and Acting in Language Models](https://arxiv.org/abs/2210.03629)
+- Shao et al. (2024) — [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300) (GRPO)
+- Guo et al. (2025) — [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](https://arxiv.org/abs/2501.12948)
+- Kim et al. (2024) — [OpenVLA: An Open-Source Vision-Language-Action Model](https://arxiv.org/abs/2406.09246)
+- Black et al. (2024) — [π₀: A Vision-Language-Action Flow Model for General Robot Control](https://arxiv.org/abs/2410.24164)
 
-### Community and Support
+### Part III — Agents
 
-#### Discussion Forums
-- [LangChain Discord](https://discord.gg/langchain)
-- [Hugging Face Forums](https://discuss.huggingface.co/)
-- [r/MachineLearning](https://www.reddit.com/r/MachineLearning/)
-- [AI Stack Exchange](https://ai.stackexchange.com/)
+- [BALROG](https://balrogai.com/) — benchmark suite (NetHack, TextWorld, and other games/puzzles) used in Case Study 2 to evaluate reasoning and reflective agents
+- [ReAct](https://github.com/ysymyth/ReAct) / Reflexion — reference implementations for the self-reflective agent loop
 
-#### Conferences and Workshops
-- NeurIPS - Neural Information Processing Systems
-- ICML - International Conference on Machine Learning
-- ACL - Association for Computational Linguistics
-- ICLR - International Conference on Learning Representations
+### Part IV — Tools for Agentic Systems
 
-#### Research Groups and Labs
-- [LIACS Research](https://www.universiteitleiden.nl/en/science/computer-science/research)
-- [OpenAI Research](https://openai.com/research)
-- [Google DeepMind](https://deepmind.google/)
-- [Anthropic Research](https://www.anthropic.com/research)
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) — standardized tool-integration protocol discussed in the tools chapter and used in Case Study 3
+- [LangChain](https://python.langchain.com/) — framework for toolchains and the ReAct loop
+- Lewis et al. (2020) — [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+- Self-RAG and Self-Ask — adaptive retrieval methods covered in the retrieval chapter
 
----
+### Part V — Behavioral and Cognitive Perspectives
 
-### Additional Tools
+- Park et al. (2023) — [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442) — framework used in Case Study 4
+- [CAMEL](https://www.camel-ai.org/) / [AutoGen](https://microsoft.github.io/autogen/) / [CrewAI](https://www.crewai.com/) — multi-agent orchestration frameworks discussed in the role-based interaction chapter
 
-#### Code Libraries
-- [transformers](https://github.com/huggingface/transformers) - Hugging Face transformers
-- [tiktoken](https://github.com/openai/tiktoken) - Token counting for OpenAI models
-- [openai-python](https://github.com/openai/openai-python) - OpenAI Python library
-- [chromadb](https://github.com/chroma-core/chroma) - Embedding database
+### Part VI — Advanced Topics
 
-#### Monitoring and Evaluation
-- [LangSmith](https://www.langchain.com/langsmith) - LLM application monitoring
-- [Weights & Biases](https://wandb.ai/) - Experiment tracking
-- [MLflow](https://mlflow.org/) - ML lifecycle management
-
-#### Visualization
-- [Graphviz](https://graphviz.org/) - Graph visualization
-- [Matplotlib](https://matplotlib.org/) - Python plotting library
-- [Plotly](https://plotly.com/) - Interactive visualizations
+- Nanda et al. (2023) — [Progress Measures for Grokking via Mechanistic Interpretability](https://arxiv.org/abs/2301.05217)
 
 ---
 
 ### Getting Help
 
-If you need assistance with the course:
-
-1. **Office Hours**: Check the course schedule for instructor availability
-2. **Course Forum**: Post questions on the course discussion board
-3. **Email**: Contact the instructor for private matters
-4. **Study Groups**: Form study groups with fellow students
-5. **LIACS Support**: Visit LIACS for technical assistance
+- **Office Hours**: Check the [Schedule](/schedule/) for lecture times; office hours are announced in class
+- **Email**: [m.t.van.der.meer@liacs.leidenuniv.nl](mailto:m.t.van.der.meer@liacs.leidenuniv.nl) for course-related questions
+- **LIACS**: Visit the [LIACS website](https://www.universiteitleiden.nl/en/science/computer-science) for general support
 
 ---
 
-### Contributing
-
-Have a resource to suggest? Please let us know! Send your recommendations to the course instructor.
-
----
-
-*This page is regularly updated. Last update: February 2026*
+*Last updated: July 2026*

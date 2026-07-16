@@ -6,244 +6,134 @@ permalink: /schedule/
 
 ## Course Schedule
 
-### Week-by-Week Breakdown
+Fall 2026, weekly lectures from **Tuesday, September 1** through **Tuesday, December 8, 2026**. Each week corresponds to a chapter (or pair of chapters) of the course textbook, *Agentic Large Language Models*. Winter break follows the December 8 session.
 
-This schedule provides an overview of the topics covered each week. Specific readings and assignments will be announced in class.
+> The chapter groupings for weeks 5–7 (Reasoning & Agents) reflect how the teaching team compresses Parts II and III of the book into three lectures; the exact week-by-week split within that block may shift slightly as the course is finalized.
 
----
+### Overview
 
-#### Week 1: Introduction to Large Language Models
-**Topics:**
-- Course overview and objectives
-- History and evolution of language models
-- Transformer architecture basics
-- Current state-of-the-art LLMs
-
-**Materials:**
-- Lecture slides: Introduction to LLMs
-- Reading: "Attention Is All You Need" (Vaswani et al., 2017)
-
-**Lab:**
-- Setting up your development environment
-- First experiments with LLM APIs
-
----
-
-#### Week 2: Understanding LLM Capabilities and Limitations
-**Topics:**
-- What LLMs can and cannot do
-- Emergent abilities in large models
-- Common failure modes and pitfalls
-- Context windows and token limits
-
-**Materials:**
-- Lecture slides: LLM Capabilities
-- Reading: Selected papers on LLM evaluation
-
-**Assignment 1 Due:** Basic LLM interaction exercises
+| Week | Date | Topic | Assignments |
+|---|---|---|---|
+| 1 | Sep 1 | Introduction | |
+| 2 | Sep 8 | Language Modeling I | Assignment 1 starts |
+| 3 | Sep 15 | Language Modeling II | |
+| 4 | Sep 22 | Language Modeling III | |
+| 5 | Sep 29 | Reasoning & Agents I | **Assignment 1 due** · Assignment 2 starts |
+| 6 | Oct 6 | Reasoning & Agents II | Assignment 1 retake |
+| 7 | Oct 13 | Reasoning & Agents III | |
+| 8 | Oct 20 | Tools & Assistants I | **Assignment 2 due** · Assignment 3 starts |
+| 9 | Oct 27 | Tools & Assistants II | Assignment 2 retake |
+| 10 | Nov 3 | Tools & Assistants III | |
+| 11 | Nov 10 | Behavior & Cognition I | **Assignment 3 due** · Assignment 4 starts |
+| 12 | Nov 17 | Behavior & Cognition II | Assignment 3 retake |
+| 13 | Nov 24 | Behavior & Cognition III | |
+| 14 | Dec 1 | Evaluation & Outlook | **Assignment 4 due** |
+| 15 | Dec 8 | — | Assignment 4 retake |
 
 ---
 
-#### Week 3: Prompt Engineering Fundamentals
-**Topics:**
-- Prompt design principles
-- Zero-shot, few-shot, and many-shot learning
-- Instruction following
-- Best practices for clear prompts
-
-**Materials:**
-- Lecture slides: Prompt Engineering
-- Interactive prompt engineering workshop
-
-**Lab:**
-- Hands-on prompt design challenges
+### Week 1 — September 1: Introduction
+**Topics:** What is an agentic LLM? The reason/act/interact taxonomy; the "agentic harness" (LLM + harness); why LLMs running out of training data motivates learning from interaction.
 
 ---
 
-#### Week 4: Advanced Prompting Techniques
-**Topics:**
-- Chain-of-thought reasoning
-- Self-consistency
-- Tree of thoughts
-- Prompt optimization strategies
+### Week 2 — September 8: Language Modeling I
+**Topics:** Foundations of Language Modeling with LLMs — tokenization and early word-representation methods, embeddings, the attention mechanism, the transformer architecture, encoder vs. decoder models.
 
-**Materials:**
-- Lecture slides: Advanced Prompting
-- Reading: Chain-of-Thought papers
-
-**Assignment 2 Due:** Prompt engineering project
+**Assignment 1 starts:** Case Study 1 — Building LLMs from Scratch.
 
 ---
 
-#### Week 5: Introduction to AI Agents
-**Topics:**
-- What is an AI agent?
-- Agent architectures (ReAct, Plan-and-Execute)
-- Reasoning and action cycles
-- Tool use and function calling
-
-**Materials:**
-- Lecture slides: AI Agents
-- Reading: ReAct and agent papers
-
-**Lab:**
-- Building your first agent
+### Week 3 — September 15: Language Modeling II
+**Topics:** The Large Language Model Training Pipeline — data acquisition, pretraining, finetuning, preference tuning, inference, and common LLM benchmarks.
 
 ---
 
-#### Week 6: Memory and Context Management
-**Topics:**
-- Short-term and long-term memory
-- Vector databases and embeddings
-- Context window optimization
-- Retrieval-Augmented Generation (RAG)
-
-**Materials:**
-- Lecture slides: Memory Systems
-- Demo: RAG implementation
-
-**Assignment 3 Due:** Simple agent implementation
+### Week 4 — September 22: Language Modeling III
+**Topics:** Scaling Laws and Efficient Large Language Models — scaling laws, small/distilled models, inference-time vs. training-time compute, sustainability and energy consumption.
 
 ---
 
-#### Week 7: Multi-Agent Systems
-**Topics:**
-- Agent communication protocols
-- Coordination and collaboration
-- Specialization and role assignment
-- Consensus and decision-making
+### Week 5 — September 29: Reasoning & Agents I
+**Topics:** Reasoning Models — chain-of-thought prompting for multi-step reasoning, the agentic harness in practice, self-reflection, reinforcement learning with verifiable rewards (RLVR).
 
-**Materials:**
-- Lecture slides: Multi-Agent Systems
-- Reading: Multi-agent collaboration papers
-
-**Lab:**
-- Building collaborative agent systems
-
-**Midterm Project Due:** Agent system design and implementation
+**Assignment 1 due.** **Assignment 2 starts:** Case Study 2 — reasoning and self-reflection on the BALROG puzzle/game benchmark.
 
 ---
 
-#### Week 8: Advanced Agent Capabilities
-**Topics:**
-- Self-reflection and improvement
-- Iterative refinement
-- Planning and goal decomposition
-- Error handling and recovery
+### Week 6 — October 6: Reasoning & Agents II
+**Topics:** Vision, Action and World Models — vision-language models, vision-language-action (VLA) models, world models for physically-grounded agents; Interaction Styles for Agentic LLMs — historic agent types and the five agentic interaction styles.
 
-**Materials:**
-- Lecture slides: Advanced Agents
-- Case studies of production agent systems
+**Assignment 1 retake.**
 
 ---
 
-#### Week 9: Integration with External Systems
-**Topics:**
-- API integration
-- Database connections
-- Web scraping and data collection
-- Real-time data streams
-
-**Materials:**
-- Lecture slides: System Integration
-- Practical examples and demos
-
-**Assignment 4 Due:** Multi-agent system
+### Week 7 — October 13: Reasoning & Agents III
+**Topics:** Metalearning — in-context and few-shot learning, inner/outer learning loops, the moving-target problem; agentic memory architectures.
 
 ---
 
-#### Week 10: Agent Orchestration and Frameworks
-**Topics:**
-- LangChain, AutoGen, and other frameworks
-- Workflow design and orchestration
-- Debugging and monitoring
-- Performance optimization
+### Week 8 — October 20: Tools & Assistants I
+**Topics:** How Agents Use Tools to Act in the World — direct-invocation vs. Planner–Caller–Summarizer patterns, LangChain and the ReAct loop, the Model Context Protocol (MCP), safety and error recovery.
 
-**Materials:**
-- Lecture slides: Frameworks
-- Hands-on framework tutorials
-
-**Lab:**
-- Framework exploration and comparison
+**Assignment 2 due.** **Assignment 3 starts:** Case Study 3 — Building a Multi-Agent Diagnosis Framework.
 
 ---
 
-#### Week 11: Evaluation and Testing
-**Topics:**
-- Metrics for agent performance
-- Benchmark datasets
-- Human evaluation methods
-- A/B testing for agents
+### Week 9 — October 27: Tools & Assistants II
+**Topics:** Search and Retrieval in Agentic LLMs — the retrieval-augmented generation (RAG) pipeline, Self-RAG and Self-Ask, retrieval beyond text (graphs, code, tables, multimodal), evaluation metrics (Recall@k, MRR, faithfulness).
 
-**Materials:**
-- Lecture slides: Evaluation
-- Reading: LLM evaluation papers
-
-**Assignment 5 Due:** Integration project
+**Assignment 2 retake.**
 
 ---
 
-#### Week 12: Safety, Ethics, and Responsible AI
-**Topics:**
-- AI safety principles
-- Bias and fairness
-- Privacy considerations
-- Guardrails and content filtering
-- Ethical decision-making
-
-**Materials:**
-- Lecture slides: AI Safety and Ethics
-- Discussion: Real-world case studies
-
-**Lab:**
-- Implementing safety measures
+### Week 10 — November 3: Tools & Assistants III
+**Topics:** From Tools to Assistants: Real-World Applications — shopping, medical, financial, scientific-research, and coding assistants; safety and regulatory demands of high-risk domains.
 
 ---
 
-#### Week 13: Production Deployment
-**Topics:**
-- Deployment strategies
-- Scalability and performance
-- Cost optimization
-- Monitoring and maintenance
+### Week 11 — November 10: Behavior & Cognition I
+**Topics:** Studying Behavior of Agentic LLMs — machine behavior research, basic social/interactive competencies, strategic thinking, Theory of Mind, and moral reasoning in LLMs.
 
-**Materials:**
-- Lecture slides: Deployment
-- Guest speaker: Industry perspective
+**Assignment 3 due.** **Assignment 4 starts:** Case Study 4 — Simulating Societies with LLM Agents.
 
 ---
 
-#### Week 14: Future Directions and Research
-**Topics:**
-- Current research frontiers
-- Open challenges in agentic AI
-- Future capabilities and risks
-- Career paths in AI
+### Week 12 — November 17: Behavior & Cognition II
+**Topics:** Role-Based Interaction in Multi-LLM Systems — role-based collaboration patterns, orchestrator–worker vs. peer-to-peer topologies, coordination protocols.
 
-**Materials:**
-- Lecture slides: Future of Agentic AI
-- Student project presentations
+**Assignment 3 retake.**
 
 ---
 
-#### Week 15: Final Project Presentations
-**Topics:**
-- Student project demonstrations
-- Peer feedback and discussion
-- Course wrap-up
-
-**Final Project Due:** Complete agentic LLM application
+### Week 13 — November 24: Behavior & Cognition III
+**Topics:** Emergent Behavior in Multi Agent LLM Environments — cooperation, norm formation, collective intelligence in open-ended multi-agent systems.
 
 ---
 
-### Important Dates
+### Week 14 — December 1: Evaluation & Outlook
+**Topics:** Course wrap-up and Future Directions for Agentic LLMs — the state of the art across reasoning, acting, and interacting; limitations (memory, scale, hallucination, safety, ethics); the research agenda ahead.
 
-- **Week 1**: Course begins
-- **Week 7**: Midterm project due
-- **Week 15**: Final project presentations and submission
-
-*Note: This schedule is subject to change based on class progress and guest speaker availability. Any changes will be announced in advance.*
+**Assignment 4 due.**
 
 ---
 
-*Last updated: February 2026*
+### Week 15 — December 8: Retake Week
+Assignment 4 retake. No new lecture; winter break follows.
+
+---
+
+### Assignments at a Glance
+
+| Assignment | Case Study | Book Chapter | Starts | Due | Retake |
+|---|---|---|---|---|---|
+| 1 | Building LLMs from Scratch | Ch. 5 | Sep 8 | Sep 29 | Oct 6 |
+| 2 | BALROG: Reasoning & Reflection | Ch. 10 | Sep 29 | Oct 20 | Oct 27 |
+| 3 | Multi-Agent Diagnosis Framework | Ch. 14 | Oct 20 | Nov 10 | Nov 17 |
+| 4 | Simulating Societies with LLM Agents | Ch. 18 | Nov 10 | Dec 1 | Dec 8 |
+
+*Note: This schedule may be adjusted based on class progress and guest-speaker availability. Any changes will be announced in advance.*
+
+---
+
+*Last updated: July 2026*
