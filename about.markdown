@@ -33,7 +33,7 @@ The course is taught by its four textbook authors, all researchers at LIACS, Lei
 
 **[Michiel van der Meer](https://www.universiteitleiden.nl/en/staffmembers/michiel-van-der-meer)** — Postdoctoral researcher at LIACS working on AI, natural language processing, and hybrid intelligence. His research develops technology for human-AI collaboration, addressing subjectivity, uncertainty, and diversity of perspectives in language processing.
 
-**[Aske Plaat](https://www.universiteitleiden.nl/en/staffmembers/aske-plaat)** — Professor of Artificial Intelligence at Leiden University and Scientific Director of LIACS. He heads the Reinforcement Learning Group and the Sustainable Energy Learning Lab, and is the author of two textbooks on Deep Reinforcement Learning.
+**[Aske Plaat](https://www.universiteitleiden.nl/en/staffmembers/aske-plaat)** — Professor of Artificial Intelligence at Leiden University. He heads the Reinforcement Learning Group and the Sustainable Energy Learning Lab, and is the author of two textbooks on Deep Reinforcement Learning.
 
 **[Niki van Stein](https://www.universiteitleiden.nl/en/staffmembers/niki-van-stein)** — Associate professor at LIACS, leading the Explainable AI (XAI) group within the Natural Computing cluster. Her research focuses on integrating explainability into AI models for predictive maintenance, engineering design, and automated algorithm design.
 
