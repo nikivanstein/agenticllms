@@ -6,7 +6,7 @@ permalink: /schedule/
 
 ## Course Schedule
 
-Fall 2026, running from **September 1** through **December 8, 2026**. Classes meet twice a week, on **Mondays and Fridays**. Each week corresponds to a chapter (or pair of chapters) of the course textbook, *Agentic Large Language Models*. Winter break follows the December 8 session.
+Fall 2026, running from **September 1** through **December 8, 2026**. Classes meet twice a week, on **Tuesdays and Fridays**. Each week corresponds to a chapter (or pair of chapters) of the course textbook, *Agentic Large Language Models*. Winter break follows the December 8 session.
 
 > **Exact times and rooms**: This page is a topic and deadline guide, not the authoritative timetable. For the definitive class times, rooms, and any last-minute changes, check [Brightspace](https://brightspace.universiteitleiden.nl/) and [rooster.universiteitleiden.nl](https://rooster.universiteitleiden.nl/).
 

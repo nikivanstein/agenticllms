@@ -34,7 +34,7 @@ title: Home
 
 - **Institution**: LIACS, Leiden University
 - **Credits**: 6 EC
-- **Format**: Lectures on Mondays and Fridays, plus four hands-on programming case studies (in Python)
+- **Format**: Lectures on Tuesdays and Fridays, plus four hands-on programming case studies (in Python)
 - **Teaching team**: Max van Duijn, Michiel van der Meer, Aske Plaat, Niki van Stein — see [About](/about/) for bios
 
 Check the [Syllabus](/syllabus/) for prerequisites and an interactive breakdown of every part and chapter, and the [Schedule](/schedule/) for the week-by-week timeline.
